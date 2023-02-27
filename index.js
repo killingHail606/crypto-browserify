@@ -1,5 +1,7 @@
 'use strict'
 
+const exports = {}
+
 exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = require('randombytes')
 exports.createHash = exports.Hash = require('create-hash')
 exports.createHmac = exports.Hmac = require('create-hmac')
@@ -63,7 +65,7 @@ exports.privateDecrypt = publicEncrypt.privateDecrypt
 //       'https://github.com/crypto-browserify/crypto-browserify'
 //     ].join('\n'))
 //   }
-// }) lol, really work!
+// })
 
 var rf = require('randomfill')
 
@@ -95,3 +97,5 @@ exports.constants = {
   'POINT_CONVERSION_UNCOMPRESSED': 4,
   'POINT_CONVERSION_HYBRID': 6
 }
+
+export default exports
