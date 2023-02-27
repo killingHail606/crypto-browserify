@@ -63,7 +63,7 @@ exports.privateDecrypt = publicEncrypt.privateDecrypt
 //       'https://github.com/crypto-browserify/crypto-browserify'
 //     ].join('\n'))
 //   }
-// })
+// }) lol, really work!
 
 var rf = require('randomfill')
 
